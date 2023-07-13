@@ -1,9 +1,9 @@
-# KATA NAME
+# Two fighters, one winner.
 
-XXXX A short description XXXXXX
+A function that returns the name of the winner in a fight between two fighters.
 
 
-[XX KATA NAME FOR THE LINK](LINK)
+[Two fighters, one winner](https://www.codewars.com/kata/577bd8d4ae2807c64b00045b)
 
 ## Prerequisites
 
