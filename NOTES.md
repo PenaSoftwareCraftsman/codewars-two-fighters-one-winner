@@ -25,6 +25,23 @@ function Fighter(name, health, damagePerAttack) {
         this.toString = function() { return this.name; }
 }
 
+# Domains
+
+- Fighters have name, health, damagePerAttack
+
+name is the fighter's name
+health is how much damage he takes until be dead
+damagePerAttack how much damage per attack it deals
+
+Death is defined as having health <= 0.
+
+Input: 2  fighters
+output: 
+  - declare_winner: Fighter name
+  messages of events like attacks and how much health the fighter has
+
+
+
 **Label**  
 ✅ done 🚧 WIP ❌ ERROR
 
@@ -32,4 +49,4 @@ TODO:
 
 # Pomodoro 1 🍅:
 
-- Domains search
+- Domains search ✅
