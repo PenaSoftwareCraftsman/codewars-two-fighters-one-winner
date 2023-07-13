@@ -50,3 +50,5 @@ TODO:
 # Pomodoro 1 🍅:
 
 - Domains search ✅
+- Testing:
+  - Should a fighter named "Jose" when a fighter with the same name is created 🚧

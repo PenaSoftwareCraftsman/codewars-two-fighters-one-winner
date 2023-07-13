@@ -1,0 +1,29 @@
+{
+  "name": "codewars-two-fighters-one-winner",
+  "version": "1.0.0",
+  "description": "A function that returns the name of the winner in a fight between two fighters.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^29.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll --coverage=true --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PenaSoftwareCraftsman/codewars-two-fighters-one-winner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PenaSoftwareCraftsman/codewars-two-fighters-one-winner/issues"
+  },
+  "homepage": "https://github.com/PenaSoftwareCraftsman/codewars-two-fighters-one-winner#readme"
+}
