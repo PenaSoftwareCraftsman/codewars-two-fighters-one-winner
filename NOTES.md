@@ -51,4 +51,5 @@ TODO:
 
 - Domains search ✅
 - Testing:
-  - Should a fighter named "Jose" when a fighter with the same name is created 🚧
+  - Should a fighter named "Jose" when a fighter with the same name is created ✅
+  - Should return a 2 when a fighter is created with ("Jose", 2) 🚧
