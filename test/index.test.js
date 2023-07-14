@@ -20,10 +20,10 @@ describe('Fighters', () => {
     });
     it('Should return 0 newHealth when damagePerAttack is 1 and health is 1', () => {
         const fighter = new Fighter("Jose", 1, 1);
-        let oldHealth = 1;
-        let newHealth = fighter.attack(oldHealth);
+        const fighter2 = new Fighter("Harry", 1, 1);
+        fighter2.health = fighter.attack(fighter2.health);
 
-        expect(newHealth).toStrictEqual(0);
+        expect(fighter2.health).toStrictEqual(0);
     });
 });
 
