@@ -50,9 +50,12 @@ TODO:
 # Pomodoro 1 🍅:
 
 - Domains search ✅
-- Testing:
+- Testing Figther:
   - Should a fighter named "Jose" when a fighter with the same name is created ✅
   - Should return a 2 when a fighter is created with ("Jose", 2) ✅
-  - Should return a 2 when a fighter is created with ("Jose", 2, 2) 🚧
+  - Should return a 2 when a fighter is created with ("Jose", 2, 2) ✅
 
+# Pomodoro 2 🍅:
+- Testing Figth:
+  - Should return 0 newHealth when damagePerAttack is 1 and health is 1 🚧
   
