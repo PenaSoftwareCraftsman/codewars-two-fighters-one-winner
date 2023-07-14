@@ -29,9 +29,16 @@ describe('Fighters', () => {
 
 describe('declare_winner', () => {
     it('Should return "Lew" when Lew attacks first with 1 damagePerAttack and Harry 1 as health and Harry dead', () => {
-        const fighter = new Fighter("Lew", 1);
-        const fighter2 = new Fighter("Harry", 1);
+        const fighter = new Fighter("Lew", 1, 1);
+        const fighter2 = new Fighter("Harry", 1, 1);
 
         expect(declare_winner(fighter, fighter2)).toBe(fighter.name);
+    });
+
+    it('Should return "Harry" when Harry attacks with 1 damagePerAttack and Lew 1 as health and Lew dead', () => {
+        const fighter = new Fighter("Lew", 1, 1);
+        const fighter2 = new Fighter("Harry", 1, 1);
+
+        expect(declare_winner(fighter, fighter2, "Harry")).toBe(fighter2.name);
     });
 });
