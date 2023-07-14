@@ -8,6 +8,14 @@ function Fighter(name, health, damagePerAttack){
     };
 }
 
+const declare_winner = (fighter, fighter2) =>{
+
+    fighter2.health = fighter.attack(fighter2.health);
+
+    return fighter.name;
+}
+
 module.exports = {
-    Fighter
+    Fighter,
+    declare_winner
 }
