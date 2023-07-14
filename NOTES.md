@@ -57,5 +57,6 @@ TODO:
 
 # Pomodoro 2 🍅:
 - Testing Figth:
-  - Should return 0 newHealth when damagePerAttack is 1 and health is 1 🚧
+  - Should return 0 newHealth when damagePerAttack is 1 and health is 1 ✅
+  - Should return "Lew" when Lew attacks with 1 damagePerAttack and Harry 1 as health and Harry dead 🚧
   
